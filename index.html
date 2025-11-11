@@ -11,16 +11,16 @@
 <style>
 /* HEADER STYLING */
 .header {
-    height: 15vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #b7d1cc;
-    padding: 0 20px;
+    padding:20px;
     position: relative;
     z-index: 1000;
 }
+
 
 /* LOGO */
 .header img {
@@ -112,7 +112,6 @@
     display: none;
     font-size: 30px;
     cursor: pointer;
-    margin-right: 20px;
 }
 
 /* RESPONSIVE DESIGN */
@@ -138,6 +137,16 @@
     padding-top:80px;
     font-size:64px;
     font-weight:bold;
+}
+@media(max-width:576px){
+    .section-1 .left h3{
+        font-size:30px !important;
+    }
+}
+    @media(max-width:772px){
+    .section-1 .left h3{
+        font-size:40px;
+    }
 }
 .section-1 .left p{
     font-size:20px;
@@ -1045,3 +1054,4 @@
     </script>
 </body>
 </html>
+
